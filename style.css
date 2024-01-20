@@ -1,0 +1,178 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.navigation li a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+
+}
+
+img {
+    width: 80%;
+}
+
+.start-picture {
+    width: 20%;
+
+
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 30px;
+}
+
+.kleem {
+    /* margin-left: 15%;
+    text-align: center;
+    padding: 50px;
+    width: 65%; */
+}
+
+.first-img {
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.grey {
+    background-color: #f1f1f1;
+}
+
+.grey h1 {
+    text-align: center;
+}
+
+.grey h3 {
+    text-align: center;
+
+}
+
+.grey-section-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 60%;
+}
+
+.grey-picture {
+    width: 70%;
+}
+
+.container {
+    margin-top: 60px;
+    /* text-align: center; */
+}
+
+.container-img {
+
+    box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.75);
+}
+
+.kleem {
+text-align: justify;
+}
+
+.clinically-picture {
+    width: 80%;
+    margin: auto;
+}
+.clinically{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.proven li{
+    list-style-type: disclosure-closed;
+    margin: 20px 0 ;
+}
+
+.ingrid{
+    background-color: #f1f1f1;
+}
+.ingrid h1{
+    text-align: center;
+    padding: 12px;
+}
+.grey-section-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
+    width: 80%;
+}
+.grey-section-three-text{
+    margin: auto;
+    width: 80%;
+   
+}
+
+.grey-section-three-img{
+    width: 70%;
+    margin: auto;
+}
+.button-blue{
+    justify-content: center;
+    display: flex;
+
+}
+.button-blue .order{
+background-color: blue;
+text-align: center;
+border:none;
+font-size: 18px;
+border-radius: 7px;
+padding: 10px 50px;
+margin: 15px;
+color: white;
+box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+}
+.order:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.retinol-cream{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px auto;
+}
+.retinol h1{
+    text-align: center;
+}
+
+.retinol-images{
+    width: 55%;
+    margin: auto;
+}
+.retinol-six{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
