@@ -14,6 +14,8 @@ body {
     flex-direction: row-reverse;
     justify-content: space-around;
     list-style-type: none;
+    width: 60%;
+    margin: auto;
 
 }
 
@@ -24,11 +26,10 @@ body {
     font-size: 20px;
     font-weight: bold;
     padding-right: 10px;
-
 }
 
 img {
-    width: 80%;
+    width: 100%;
 }
 
 .start-picture {
@@ -47,20 +48,20 @@ header {
 }
 
 .kleem {
-    /* margin-left: 15%;
+    margin-top: 50px;
     text-align: center;
-    padding: 50px;
-    width: 65%; */
+    margin: auto;
 }
 
 .first-img {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 70px;
     width: 50%;
 }
 
 .grey {
     background-color: #f1f1f1;
+    margin-bottom: 80px;
 }
 
 .grey h1 {
@@ -73,6 +74,7 @@ header {
 }
 
 .grey-section-two {
+    grid-column-gap: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;
@@ -80,11 +82,14 @@ header {
 }
 
 .grey-picture {
-    width: 70%;
+    width: 60%;
 }
 
 .container {
     margin-top: 60px;
+}
+.container h1{
+    text-align: center;
 }
 
 .container-img {
@@ -95,13 +100,17 @@ header {
 .kleem {
 text-align: justify;
 }
+.kleem p{
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
 
 .clinically-picture {
     width: 80%;
     margin: auto;
 }
 .clinically{
-    margin-top: 70px;
+    margin-top: 90px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 20px auto;
@@ -114,6 +123,7 @@ text-align: justify;
 }
 
 .ingrid{
+    padding-bottom: 20px;
     background-color: #f1f1f1;
 }
 .ingrid h1{
@@ -214,8 +224,111 @@ text-align: center;
 }
 
 
+.apply h1{
+    text-align: center;
+}
+.apply p{
+    text-align: center;
+}
+.trusted h1{
+    text-align: center;
+}
+.trusted-img{
+    width: 80%;
+    margin: auto;
 
+}
+.commited {
+    background-color: azure;
+}
+.commited h1{
+    text-align: center;
+}
+.commited p{
+    text-align: center;
+}
+.order-now:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.button-grey{
+    margin: auto;
+    text-align: center;
+}
+.button-grey .order-now{
+    background-color: gray;
+    padding-left: 50%;
+    border:none;
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 20px 50px;
+    margin: 15px;
+    color: black;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    }
+    .frequently h1{
+        text-align: center;
+    }
 
+    .description{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 50%;
+        margin: auto; 
+    }
+    .form{
+        list-style-type: none;
+    }
+
+    .button-purple .purple-order{
+        background-color: purple;
+        border:none;
+        font-size: 18px;
+        border-radius: 7px;
+        padding: 12px 30px;
+        color: black;
+        box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+        }
+
+        .swiper-img{
+            width: 350px;
+            margin-right: 20px;
+        }
+        .swiper-grid{
+            display: flex;
+            margin: auto;
+            width: 76%;
+            padding: 10px 10px;
+        }
+    .mySwiper1{
+        border: 1px black solid;
+    }
+
+    .heart{
+   margin: auto;
+        width: 18%;
+    }
+    .stars{
+        margin: auto 0;
+        width: 80px;
+    }
+    .mark{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .reviews-swiper{
+        display: flex;
+        margin: 50px 0;
+    }
+    .reviews{
+        width: 70%;
+        text-align: center;
+    }
+    .reviews p{
+        margin: 0;
+    }
 
 
 
@@ -249,3 +362,14 @@ text-align: center;
 .paragraph{
     margin-top: 5%;
 }
+
+
+
+
+
+
+
+
+
+
+
