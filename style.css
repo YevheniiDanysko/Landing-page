@@ -330,6 +330,20 @@ text-align: center;
         margin: 0;
     }
 
+    .looking-skin{
+        background-image: url(../images/633ffe4ee4c20f340d0d3f64-pure-anti-wrinkle-face-neck.jpg);
+        background-image: url(../images/633ffe4…-pure-anti-wrinkle-face-neck.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        height: 45vh;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
 
 
 
